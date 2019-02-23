@@ -1,0 +1,10 @@
+[package]
+name = "nix-prefetch-github"
+version = "0.1.0"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+docopt = "*"
+serde = { version = "1", features = ["derive"] }
